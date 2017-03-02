@@ -23,4 +23,12 @@ li a {
 
 li a:hover {
     background-color: #111;
+    <!--[if lt IE 10]>
+<style>
+li {
+    width: 25%;
+    float: left
+}
+</style>
+<![endif]-->
 }
